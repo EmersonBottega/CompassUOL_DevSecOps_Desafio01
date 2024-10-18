@@ -1,3 +1,26 @@
     1  mkdir desafio01
     2  cd desafio01/
     3  history > script.txt
+    4  git init
+    5  apt install git
+    6  git init
+    7  git branch -m main
+    8  git status
+    9  git config --global user.name "EmersonBottega"
+   10  git config --global user.email "emerbtts@hotmail.com"
+   11  git add .
+   12  git status
+   13  git commit -m "feat: adicionado arquivo de script"
+   14  git remote add origin https://github.com/EmersonBottega/CompassUOL_DevSecOps_Desafio01.git
+   15  git push -u origin main
+   16  git push -u origin main
+   17  git pull
+   18  git pull origin main
+   19  git branch -r
+   20  git pull origin/main
+   21  git pull origin main
+   22  git pull --rebase origin main
+   23  git status
+   24  git pull
+   25  git pull origin main
+   26  history > script.txt 
